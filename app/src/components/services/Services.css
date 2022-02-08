@@ -1,0 +1,20 @@
+.images{
+    height: 25em;
+    margin: 10px 0;
+    text-align: center;
+}
+.images img{
+    height: inherit;
+    margin: 5px;
+}
+.list span{
+    font-size: 20px !important;
+    font-weight: 600;
+    font-style: italic;
+}
+h2{
+    font-size: 40px;
+}
+h4{
+    font-size: 35px;
+}

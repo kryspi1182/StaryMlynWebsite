@@ -8,16 +8,19 @@ import Gallery from "./components/gallery/Gallery";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./custom.css";
 import Contact from "./components/contact/Contact";
+import Footer from "./components/Footer";
 
 const App: React.FC = () => {
   return (
     <BrowserRouter>
       <Layout />
+     
       <Routes>
         <Route path={Paths.services} element={<Services />} />
         <Route path={Paths.gallery} element={<Gallery />} />
         <Route path={Paths.contact} element={<Contact />} />
       </Routes>
+      <Footer/>
     </BrowserRouter>
   );
 };
