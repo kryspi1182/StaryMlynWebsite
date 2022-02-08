@@ -23,18 +23,18 @@ import IconButton from "@mui/material/IconButton";
 const useStyles = makeStyles({
   customLink: {
     color: "#fff !important",
-    backgroundColor: "#000",
+    backgroundColor: "#696254",
     border: "1px solid",
-    borderColor: "#000",
+    borderColor: "#696254",
     borderRadius: "5px",
     margin: "15px",
     padding: "10px",
     textDecoration:"none",
     "&:hover": {
-      color: "#000 !important",
-      backgroundColor: "#fff",
+      color: "#696254 !important",
+      backgroundColor: "#d6d6d6",
       border: "1px solid",
-      borderColor: "#000",
+      borderColor: "#696254",
     },
     "&:active": {
       color: "#fff !important",
@@ -43,13 +43,16 @@ const useStyles = makeStyles({
       borderColor: "#000",
     },
   },
+  header:{
+    backgroundColor: "#b8a67d !important"
+  }
 });
 
 const NavMenu: React.FC = () => {
   const classes = useStyles();
   return (
     <Box sx={{ flexGrow: 1 }}>
-      <AppBar position="static">
+      <AppBar position="static" className={classes.header}>
         <Toolbar>
           <NavLink
             tag={Link}
