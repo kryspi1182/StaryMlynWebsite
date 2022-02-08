@@ -3,5 +3,5 @@
     "react-router-dom": "^6.2.1",
     "reactstrap": "^9.0.1"
   },
-  "start": "npm start"
+  "start": "node server/server.js"
 }
