@@ -14,6 +14,13 @@ import four2 from "../../assets/2/4.jpg";
 import five2 from "../../assets/2/5.jpg";
 import six2 from "../../assets/2/6.jpg";
 
+import first3 from "../../assets/3/1.jpg";
+import second3 from "../../assets/3/2.jpg";
+import third3 from "../../assets/3/3.jpg";
+import four3 from "../../assets/3/4.jpg";
+
+import first4 from "../../assets/4/1.jpg";
+
 const itemData = [
   {
     img: first1,
@@ -72,6 +79,27 @@ const itemData = [
     title: 'Sala',
     cols: 2,
     rows: 4
+  },
+  {
+    img: first3,
+    title: 'Sala',
+  },
+  {
+    img: second3,
+    title: 'Sala',
+  },
+  {
+    img: third3,
+    title: 'Sala',
+    cols: 2
+  },
+  {
+    img: four3,
+    title: 'Sala',
+  },
+  {
+    img: first4,
+    title: 'Sala',
   },
 ];
 
